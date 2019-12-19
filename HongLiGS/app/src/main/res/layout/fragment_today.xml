@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.TodayFragment">
+
+
+
+    <com.example.hongligs.bean.PtrClassicRefreshLayout
+        android:id="@+id/fragment_consultation_ptr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_View"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.example.hongligs.bean.PtrClassicRefreshLayout>
+</LinearLayout>

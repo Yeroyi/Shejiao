@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_100"
+    android:layout_height="@dimen/dp_160">
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_160">
+
+
+        <ImageView
+            android:id="@+id/chose_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/test" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/hook_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:src="@mipmap/hook" />
+
+        <TextView
+            android:id="@+id/chose_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:layout_marginTop="@dimen/dp_100"
+            android:text="网红美食" />
+
+    </RelativeLayout>
+</LinearLayout>
